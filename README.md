@@ -21,7 +21,7 @@
 
 ### Build
 ```sh
-gcc *.c -o alphavim
+make all
 ```
 
 ### Run
