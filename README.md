@@ -74,4 +74,4 @@ Alphavim is designed for speed, minimalism, and hackability. Every byte counts. 
 ---
 
 ## 📄 License
-MIT
+GNU GENERAL PUBLIC LICENSE
