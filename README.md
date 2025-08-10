@@ -49,22 +49,23 @@ make all
 ---
 
 ## 🗂️ Code Structure
-- `main.c` — Main loop, input handling
-- `terminal.c` — Terminal raw mode, key reading, cursor
-- `buffer.c` — Buffer management
-- `display.c` — Rendering, status bar, highlighting
-- `command.c` — Command processing
-- `file.c` — File I/O
-- `my_string.c` — String utilities
-- `ansi_cursor_seq.c` — ANSI cursor sequences
-- `alphavim.h` — Central header
+- `src/main.c` — Main loop, input handling
+- `src/terminal.c` — Terminal raw mode, key reading, cursor
+- `src/buffer.c` — Buffer management
+- `src/display.c` — Rendering, status bar, highlighting
+- `src/command.c` — Command processing
+- `src/file.c` — File I/O
+- `src/my_string.c` — String utilities
+- `src/ansi_cursor_seq.c` — ANSI cursor sequences
+- `includes/alphavim.h` — Central header
+- `includes/*.h` — Module headers
 
 ---
 
 ## 🛠️ Extending Alphavim
-- Add new commands in `command.c`
-- Improve syntax highlighting in `display.c`
-- Add buffer/file features in `buffer.c` and `file.c`
+- Add new commands in `src/command.c`
+- Improve syntax highlighting in `src/display.c`
+- Add buffer/file features in `src/buffer.c` and `src/file.c`
 
 ---
 
